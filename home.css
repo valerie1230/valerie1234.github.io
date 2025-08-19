@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+ background-image: url(https://mindofthestudent.org.uk/wp-content/uploads/sites/12/2025/02/EmpowerU-2.png);
+  color: #333;
+}
+
+/* Header */
+header {
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHlNNMGuWp3HRM90xXm5SVgowlqGF3SgQ2g&s) ;
+  color:black;
+  padding: 20px;
+ text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #444;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  botto

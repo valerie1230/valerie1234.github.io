@@ -1,0 +1,35 @@
+// Select the form element
+const form = document.querySelector('form');
+
+// Add an event listener to the form
+form.addEventListener('submit', (e) => {
+  // Get the input fields
+  const firstName = document.querySelector('input[name="firstname"]');
+  const email = document.querySelector('input[name="email"]');
+  const password = document.querySelector('input[type="password"]');
+
+  // Check if any of the required fields are empty
+  if (firstName.value.trim() === '' || email.value.trim() === '' || password.value.trim() === '') {
+    // Prevent the form from submitting
+    e.preventDefault();
+    alert('Please fill in all required fields.');
+  }
+});
+
+// Select the form element
+        const form = document.querySelector('form');
+
+        // Add an event listener to the form
+        form.addEventListener('submit', (e) => {
+          // Get the input fields
+          const firstName = document.querySelector('input[name="firstname"]');
+          const email = document.querySelector('input[name="email"]');
+          const password = document.querySelector('input[type="password"]');
+
+          // Check if any of the required fields are empty
+          if (firstName.value.trim() === '' || email.value.trim() === '' || password.value.trim() === '') {
+            // Prevent the form from submitting
+            e.preventDefault();
+            alert('Please fill in all required fields.');
+          }
+        });

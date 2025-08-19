@@ -1,0 +1,38 @@
+/*selector{
+	property:value;
+}*/
+body {
+      background-image: url(https://tse4.mm.bing.net/th/id/OIP.DF2m1qG7t3h9hfBys7-QKwHaHF?rs=1&pid=ImgDetMain&o=7&rm=3);
+      background-size: cover;
+}
+h2{
+    color:black ;
+    text-align: center;
+    cursor:pointer ;
+    font-size: 7000;
+    font-style: initial;
+    font-family:Georgia ;
+}
+ 
+p{
+	text-transform:unset ;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:800% ;
+	font-family:Georgia ;
+	color:lightblue ;
+	text-align: center;
+}
+
+}
+p{
+	color:black ;
+	text-align: left;
+}
+
+  li{
+  	 list-style: none;
+  	 display:bold ;
+  }
+  

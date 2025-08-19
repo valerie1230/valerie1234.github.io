@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Button</title>
+  <style>
+    .fancy-button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .fancy-button:hover {
+     background-color: black;
+      transform: scale(1.05);
+    }
+
+    .fancy-button:active {
+      background-color: #3e8e41;
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+
+  <button class="fancy-button" onclick="alert('Nice click!')">Click Me</button>
+
+</body>
+</html>

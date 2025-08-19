@@ -1,0 +1,159 @@
+/* Importing a fun Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fef9f4;
+  color: #444;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #ff8c8c;
+  color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffdfdf;
+  transform: scale(1.1);
+}
+
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 4rem 1rem;
+  background: #fff;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+.section h1,
+.section h2 {
+  color: #ff6f91;
+  margin-bottom: 1rem;
+}
+
+.section p,
+.section li {
+  font-size: 1.1rem;
+}
+
+.section ul {
+  padding-left: 1.5rem;
+  list-style-type: circle;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.8rem 1rem;
+  border: 2px solid #ffd6d6;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fff5f5;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff6f91;
+}
+
+button {
+  background-color: #ff6f91;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff3e6c;
+  transform: scale(1.05);
+}
+
+#formMessage {
+  margin-top: 1rem;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ff8c8c;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+  border-top: 5px solid #fff5f5;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .section {
+    margin: 1rem;
+  }
+}

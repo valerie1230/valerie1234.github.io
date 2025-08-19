@@ -1,0 +1,36 @@
+/*selector{
+	property:value;
+}*/
+
+body {
+      background-image: url(https://thumbs.dreamstime.com/b/personal-hygiene-person-four-images-involved-77732154.jpg);
+      background-size:cover ;
+}
+h2{
+    color:deepskyblue ;
+    text-align: center;
+    cursor:pointer ;
+}
+ 
+p{
+	text-transform: uppercase;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:90% ;
+	font-family:Georgia ;
+	color:lightblue ;
+}
+img{
+	float: left;
+}
+p{
+	color:black ;
+	text-align: left;
+}
+
+  li{
+  	 list-style: none;
+  	 display: block;
+  }
+  

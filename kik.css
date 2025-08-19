@@ -1,0 +1,121 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  background: radial-gradient(circle at top left, #f9ca24, #f0932b, #e84118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #2f3640;
+  animation: backgroundPulse 10s ease infinite;
+}
+
+/* Fun animation for background */
+@keyframes backgroundPulse {
+  0%, 100% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Container */
+.login-wrapper {
+  background: #ffffffee;
+  padding: 2rem;
+  border-radius: 25px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.login-wrapper:hover {
+  transform: scale(1.02);
+}
+
+/* Header */
+.login-wrapper h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #e17055;
+}
+.login-wrapper p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #636e72;
+}
+
+/* Input fields */
+.form-group {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+.form-group label {
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #d63031;
+}
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px dashed #fab1a0;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #fff9f9;
+  transition: border 0.3s ease;
+}
+.form-group input:focus {
+  border-color: #e17055;
+  outline: none;
+  box-shadow: 0 0 8px rgba(225, 112, 85, 0.4);
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  color: white;
+  background: linear-gradient(135deg, #ff7675, #fd79a8);
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.btn:hover {
+  background: linear-gradient(135deg, #fd79a8, #e84393);
+  transform: scale(1.03);
+}
+
+/* Footer Links */
+.login-footer {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #636e72;
+}
+.login-footer a {
+  color: #0984e3;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Tweak */
+@media (max-width: 400px) {
+  .login-wrapper {
+    padding: 1.5rem;
+  }
+  .login-wrapper h1 {
+    font-size: 1.6rem;
+  }
+}
