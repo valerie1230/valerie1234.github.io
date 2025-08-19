@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #ffe066;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 3px solid #ff9f1c;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d7263d;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1515169067865-5387ec356754?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero h2 {
+  font-size: 2.8em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content h3 {
+  color: #ff6ec4;
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+.content p,
+.content ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta a {
+  display: inline-block;
+  background-color: #7873f5;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.cta a:hover {
+  background-color: #ff6ec4;
+}
+
+footer {
+  background-color: #fcbf49;
+  color: #2e2e2e;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
